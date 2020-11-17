@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Assignment 4</title>
+	
+	<link rel="stylesheet" src="bootstrap/css/bootstrap.min.css" type="text/css">
+	<style>
+		table,h1 {
+			text-align:center;
+		}
+		 thead{ 
+			background-color:grey;
+		}
+		table {
+			height:50%;
+			width:50%;
+			padding:0px;
+			margin:0px;
+			border-collapse: collapse;
+
+		}
+		.center  {
+			display: block;
+			margin-left:auto;
+			margin-right:auto;
+		}
+		.container {
+			margin-bottom:20px;
+		}
+	</style>
+</head>
+<body>
+	
+		<h3>1. To display education details in a tabular format. </h3>
+	<h1>Education Details:</h1>
+	<table border=1px class="center">
+		<thead>
+		<tr>
+			<th>Qualification</th>
+			<th>Institution</th>
+			<th>Board/University</th>
+			<th>Year of Completion</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>10th</td>
+			<td>Sarala Birla Public School</td>
+			<td>CBSE</td>
+			<td>2016</td>
+		</tr>
+		<tr>
+			<td>12th</td>
+			<td>Jawahar Vidya Mandir, Shyamali</td>
+			<td>CBSE</td>
+			<td>2018</td>
+		</tr>
+		<tr>
+			<td>B.Tech</td>
+			<td>B.I.T. Sindri</td>
+			<td>JUT</td>
+			<td>2022</td>
+		</tr>
+	</tbody>
+	</table>
+	
+	<div class="container">
+		<h3>2. To embed an image and create a link such that clicking on image takes user to other page. </h3> 
+		<a href="List.html"><img class="center" alt ="the image" src="1.jpg" height=300px width=300px /><br><h1><em><u>Click on image to Move to other page.</u></em></h1></a>
+	</div>
+	<div class="container">
+		<h3> 4.To embed an image map in a web page.</h3>
+
+		<img src="intro-bg_1.jpg" alt="lifestyle store" usemap="#storemap" width="400" height="379">
+		<map name="storemap">
+			<area shape="rect" coords="34,44,270,350" alt="clothes" href="13.jpg">
+			<area shape="rect" coords="290,172,333,250" alt="clothes" href="2.jpg">
+			<area shape="circle" coords="337,300,44" alt="watch" href="12.jpg">
+		</map>
+	</div>
+	<div class="container">
+		<h3>5. To embed audio and video in a web page.</h3>
+		<audio controls>
+			<source src="" type="audio/mpeg">Your browser does not support audio content.
+		</audio>
+		
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/bNd5xfqVw1M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>"
+		
+</div>
+</body>
+</html>

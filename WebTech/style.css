@@ -1,0 +1,22 @@
+table,h1 {
+			text-align:center;
+		}
+		 thead{ 
+			background-color:grey;
+		}
+		table {
+			height:100%;
+			width:50%;
+			padding:0px;
+			margin:0px;
+			border-collapse: collapse;
+
+		}
+		.center  {
+			display: block;
+			margin-left:auto;
+			margin-right:auto;
+		}
+		.container {
+			margin-bottom:20px;
+		}		
